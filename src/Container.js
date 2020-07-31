@@ -1,7 +1,6 @@
 import React from "react";
 import Home from "./home/Home.js";
 import About from "./about/About.js";
-import Contact from "./contact/Contact.js";
 import NavigationBar from "./components/NavigationBar.js";
 
 import "./Container.css";

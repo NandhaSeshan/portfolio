@@ -1,0 +1,21 @@
+#about {
+  background-color: #222831;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  padding: 0 10vh;
+}
+
+.about_me {
+  margin: 100px 0px 0px 0px;
+}
+
+#page_heading {
+  color: #4f8a8b;
+  font-size: 40px;
+}
+
+#page_content {
+  color: #fbd46d;
+  font-size: 23px;
+}

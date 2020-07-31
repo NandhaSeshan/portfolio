@@ -1,0 +1,29 @@
+.navbar {
+  background: #222831;
+  padding: 0 150px;
+}
+
+#logo {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #fbd46d;
+  letter-spacing: 2.5px;
+}
+
+#nav-link {
+  padding: 17px 20px;
+  color: #fbd46d;
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+
+#logo:hover,
+#nav-link:hover {
+  color: #ffd041;
+}
+
+#util_logo {
+  padding: 0px 5px 5px 5px;
+  height: 30px;
+  width: 30px;
+}

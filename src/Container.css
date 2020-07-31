@@ -1,0 +1,21 @@
+#bg-image {
+  padding: 0;
+  margin: 0;
+  background: url("./images/bgImage.jpeg") no-repeat center center/cover;
+  background-size: cover;
+  position: absolute;
+  z-index: -5;
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  width: 100%;
+  top: 0;
+}
+#bg-image::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}

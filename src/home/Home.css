@@ -1,0 +1,15 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93.75vh;
+  padding: 0 10vh;
+}
+
+.passage_container {
+  text-align: center;
+  margin: auto;
+  color: #fbd46d;
+  font-size: 1.9rem;
+  letter-spacing: 2px;
+}

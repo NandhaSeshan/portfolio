@@ -1,26 +1,57 @@
 import React from "react";
 import Fade from "react-reveal";
 import Flash from "react-reveal";
+import Logo from "../images/pngegg.png";
 
 import "./About.css";
 
-export const About = () => (
-  <div id="about">
-    <div className="about_me">
-      <Flash>
-        <h1 id="page_heading">ME?</h1>
-        <br />
-        <br />
-        <br />
-      </Flash>
-      <div id="page_content">
-        <Fade right>
-          <p>I'm a developer / web designer based in Bangalore, India.</p>
-          <p>I have a passion for coding and love to create.</p>
-        </Fade>
+class About extends React.Component {
+  render() {
+    return (
+      <div id="about">
+        <div className="about_me">
+          <div id="page_heading">
+            <Flash>
+              <h1>About ME?</h1>
+            </Flash>
+          </div>
+          <div id="thanos_gauntlet">
+            <img src={Logo} alt="hand_img" className="image" />
+          </div>
+          <div id="page_content1">
+            <Fade left>
+              <p>A developer / web designer</p>
+            </Fade>
+          </div>
+          <div id="page_content2">
+            <Fade right>
+              <p>A budding photographer</p>
+            </Fade>
+          </div>
+          <div id="page_content3">
+            <Fade right>
+              <p>Art enthusiast</p>
+            </Fade>
+          </div>
+          <div id="page_content4">
+            <Fade bottom>
+              <p>Amatuer singer</p>
+            </Fade>
+          </div>
+          <div id="page_content5">
+            <Fade left>
+              <p>Fittness enthusiast</p>
+            </Fade>
+          </div>
+          <div id="page_content6">
+            <Fade bottom>
+              <p>Amatuer footballer</p>
+            </Fade>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-);
+    );
+  }
+}
 
 export default About;

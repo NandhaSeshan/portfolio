@@ -1,25 +1,27 @@
 .navbar {
   background: #222831;
   padding: 0 150px;
+  font-family: "Russo One", sans-serif;
 }
 
 #logo {
   font-weight: 500;
   font-size: 1.5rem;
-  color: #fbd46d;
+  color: #fcc41f;
   letter-spacing: 2.5px;
 }
 
 #nav-link {
   padding: 17px 20px;
-  color: #fbd46d;
+  color: #fcc41f;
   font-weight: 500;
   font-size: 1.15rem;
 }
 
 #logo:hover,
 #nav-link:hover {
-  color: #ffd041;
+  color: #e0a500;
+  transform: scale(1.1);
 }
 
 #util_logo {

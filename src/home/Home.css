@@ -4,12 +4,13 @@
   align-items: center;
   height: 93.75vh;
   padding: 0 10vh;
+  font-family: "Russo One", sans-serif;
 }
 
 .passage_container {
   text-align: center;
   margin: auto;
-  color: #fbd46d;
+  color: #fcc41f;
   font-size: 1.9rem;
   letter-spacing: 2px;
 }

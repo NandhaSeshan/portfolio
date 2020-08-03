@@ -12,6 +12,7 @@ export const SocialBar = () => (
       id="social_button"
       href="https://github.com/NandhaSeshan"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <GitHubIcon fontSize="large" id="social_icons" />
     </a>
@@ -19,6 +20,7 @@ export const SocialBar = () => (
       id="social_button"
       href="https://www.linkedin.com/in/nandhaseshan"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <LinkedInIcon fontSize="large" id="social_icons" />
     </a>
@@ -27,6 +29,7 @@ export const SocialBar = () => (
       id="social_button"
       href="https://www.instagram.com/blackesto__/"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <InstagramIcon fontSize="large" id="social_icons" />
     </a>
@@ -34,6 +37,7 @@ export const SocialBar = () => (
       id="social_button"
       href="https://www.facebook.com/blackesto"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <FacebookIcon fontSize="large" id="social_icons" />
     </a>

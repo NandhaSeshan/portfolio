@@ -1,16 +1,19 @@
 #about {
   background-color: #222831;
   width: 100%;
-  height: 100vh;
   display: flex;
   padding: 0 10vh;
   font-family: "Russo One", sans-serif;
+  flex-flow: row wrap;
 }
 
 .about_me {
   position: relative;
   margin: 100px 0px 0px 0px;
   width: 100%;
+  flex-flow: row wrap;
+  display: flex;
+  padding-bottom: 100px;
 }
 
 #page_heading {
@@ -18,6 +21,7 @@
   font-size: 50px;
   justify-content: center;
   display: flex;
+  width: 100%;
 }
 
 #page_content1 {
@@ -25,54 +29,48 @@
   font-size: 23px;
   margin: 13vh 0vh 0vh 10vh;
   max-width: 55vh;
-  position: absolute;
   text-align: center;
-  width: 100%;
+  width: 40%;
 }
 #page_content2 {
   color: #fcc41f;
   font-size: 23px;
-  margin: 13vh 0vh 0vh 115vh;
+  margin: 13vh 0vh 0vh 50vh;
   max-width: 55vh;
-  position: absolute;
   text-align: center;
-  width: 100%;
+  width: 30%;
 }
 #page_content3 {
   color: #fcc41f;
   font-size: 23px;
-  margin: 35vh 0vh 0vh 8vh;
+  margin: 15vh 0vh 0vh 8vh;
   max-width: 55vh;
-  position: absolute;
   text-align: center;
-  width: 100%;
+  width: 30%;
 }
 #page_content4 {
   color: #fcc41f;
   font-size: 23px;
-  margin: 57vh 0vh 0vh 12vh;
+  margin: 15vh 0vh 0vh 53vh;
   max-width: 55vh;
-  position: absolute;
   text-align: center;
-  width: 100%;
+  width: 30%;
 }
 #page_content5 {
   color: #fcc41f;
   font-size: 23px;
-  margin: 35vh 0vh 0vh 119vh;
+  margin: 14vh 0vh 0vh 16vh;
   max-width: 55vh;
-  position: absolute;
   text-align: center;
-  width: 100%;
+  width: 30%;
 }
 #page_content6 {
   color: #fcc41f;
   font-size: 23px;
-  margin: 57vh 0vh 0vh 115vh;
+  margin: 14vh 0vh 0vh 36vh;
   max-width: 55vh;
-  position: absolute;
   text-align: center;
-  width: 100%;
+  width: 30%;
 }
 
 #thanos_gauntlet {
@@ -91,38 +89,53 @@
 
 @media (max-width: 500px) {
   #page_content1 {
-    margin: 31vh 0vh 0vh 0vh;
     font-size: 17px;
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
   }
   #page_content2 {
-    margin: 39vh 0vh 0vh 0vh;
     font-size: 17px;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    width: 100%;
   }
   #page_content3 {
-    margin: 47vh 0vh 0vh 0vh;
     font-size: 17px;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    width: 100%;
   }
   #page_content4 {
-    margin: 55vh 0vh 0vh 0vh;
     font-size: 17px;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    width: 100%;
   }
   #page_content5 {
-    margin: 63vh 0vh 0vh 0vh;
     font-size: 17px;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    width: 100%;
   }
   #page_content6 {
-    margin: 71vh 0vh 0vh 0vh;
     font-size: 17px;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    margin: 0px;
   }
 
   .about_me {
     margin: 50px 0px 0px 0px;
+    flex-flow: column;
+    padding-bottom: 50px;
   }
   #thanos_gauntlet {
-    margin-top: 20px;
+    position: static;
+    margin-top: 0px;
   }
   #about {
-    height: 100vh;
+    padding: 0 5vh;
   }
   #page_heading {
     font-size: 30px;

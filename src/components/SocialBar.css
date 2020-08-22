@@ -21,3 +21,12 @@
   transform: scale(1.2);
   background-color: #fcc41f;
 }
+@media (max-width: 500px) {
+  #social_button {
+    margin: -3px -3px 6px 0px;
+    padding: 5px;
+  }
+  #social_icons {
+    width: 30px;
+  }
+}

@@ -12,7 +12,7 @@ class About extends React.Component {
         <div className="about_me">
           <div id="page_heading">
             <Flash>
-              <h1>About ME?</h1>
+              <p>About ME?</p>
             </Flash>
           </div>
           <div id="thanos_gauntlet">

@@ -88,3 +88,43 @@
 #thanos_gauntlet .image {
   max-width: 60%;
 }
+
+@media (max-width: 500px) {
+  #page_content1 {
+    margin: 31vh 0vh 0vh 0vh;
+    font-size: 17px;
+  }
+  #page_content2 {
+    margin: 39vh 0vh 0vh 0vh;
+    font-size: 17px;
+  }
+  #page_content3 {
+    margin: 47vh 0vh 0vh 0vh;
+    font-size: 17px;
+  }
+  #page_content4 {
+    margin: 55vh 0vh 0vh 0vh;
+    font-size: 17px;
+  }
+  #page_content5 {
+    margin: 63vh 0vh 0vh 0vh;
+    font-size: 17px;
+  }
+  #page_content6 {
+    margin: 71vh 0vh 0vh 0vh;
+    font-size: 17px;
+  }
+
+  .about_me {
+    margin: 50px 0px 0px 0px;
+  }
+  #thanos_gauntlet {
+    margin-top: 20px;
+  }
+  #about {
+    height: 100vh;
+  }
+  #page_heading {
+    font-size: 30px;
+  }
+}
